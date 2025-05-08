@@ -1,86 +1,63 @@
-name: FTP Deploy ASP.NET
+name: Build, Test and Deploy
 
 on:
   push:
     branches:
-      - main # Trigger deployment to staging on push to main
-  workflow_dispatch: # Manual trigger for production deployment
+      - main
 
 jobs:
-  build-and-deploy-staging:
-    if: github.event_name != 'workflow_dispatch' # Only run for push events
+  build-and-test:
     runs-on: windows-latest
+
     steps:
-      - name: Checkout Code
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup .NET Core SDK
-        uses: actions/setup-dotnet@v3
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0'
+          dotnet-version: '8.0.x'
 
-      - name: Restore Dependencies
-        run: dotnet restore SocialSecurity.sln
+      - name: Restore dependencies
+        run: dotnet restore
 
-      - name: Build
-        run: dotnet build SocialSecurity.sln --configuration Release --no-restore
+      - name: Build solution
+        run: dotnet build --no-restore --configuration Release
 
-      - name: Publish
-        run: dotnet publish SocialSecurity.sln -c Release -o ./publish
+      - name: Run tests and collect coverage
+        run: |
+          dotnet test --no-build --configuration Release --logger trx --results-directory ./TestResults --collect:"XPlat Code Coverage"
+          reportgenerator -reports:"**/coverage.cobertura.xml" -targetdir:"TestResults/report" -reporttypes:HtmlInline_AzurePipelines
 
-      - name: Stop IIS
-        run: Stop-Service W3SVC -Force
-        shell: pwsh
-
-      - name: FTP Deploy to Staging
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: Upload test report to GitHub artifacts
+        uses: actions/upload-artifact@v3
         with:
-          server: ${{ secrets.FTP_SERVER_STAGES }}
+          name: test-report
+          path: TestResults/report
+
+      - name: Upload test report to FTP server
+        uses: sebastianpopp/ftp-action@v1
+        with:
+          host: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_USER_PASSWORD }}
-          local-dir: ./publish/
-          server-dir: /
-          timeout: 30000
+          password: ${{ secrets.FTP_PASSWORD }}
+          localDir: "TestResults/report"
+          remoteDir: "/"
 
-      - name: Start IIS
-        run: Start-Service W3SVC
-        shell: pwsh
-
-  build-and-deploy-production:
-    if: github.event_name == 'workflow_dispatch' # Only run for manual trigger
-    runs-on: windows-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-
-      - name: Setup .NET Core SDK
-        uses: actions/setup-dotnet@v3
+      - name: Send test report via email
+        uses: dawidd6/action-send-mail@v3
         with:
-          dotnet-version: '8.0'
-
-      - name: Restore Dependencies
-        run: dotnet restore SocialSecurity.sln
-
-      - name: Build
-        run: dotnet build SocialSecurity.sln --configuration Release --no-restore
-
-      - name: Publish
-        run: dotnet publish SocialSecurity.sln -c Release -o ./publish
-
-      - name: Stop IIS
-        run: Stop-Service W3SVC -Force
-        shell: pwsh
-
-      - name: FTP Deploy to Production
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER_PRODUCTION }}
-          username: ${{ secrets.FTP_USERNAME_PRODUCTION }}
-          password: ${{ secrets.FTP_PASSWORD_PRODUCTION }}
-          local-dir: ./publish/
-          server-dir: /
-          timeout: 30000
-
-      - name: Start IIS
-        run: Start-Service W3SVC
-        shell: pwsh
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: ".NET Test Report - CI Pipeline"
+          to: tester@example.com
+          from: dotnet-pipeline@example.com
+          content_type: text/html
+          body: |
+            <p>Hello Tester,</p>
+            <p>Please find the attached test report generated during the latest deployment.</p>
+            <p>Report Summary is attached.</p>
+            <p>Regards,<br/>GitHub CI/CD</p>
+          attachments: TestResults/report/index.html
