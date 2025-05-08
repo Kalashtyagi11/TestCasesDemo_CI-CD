@@ -36,7 +36,7 @@ jobs:
       #     path: TestResults/report
 
       - name: Upload test report to FTP server
-        uses: sebastianpopp/ftp-action@v1
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           host: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
