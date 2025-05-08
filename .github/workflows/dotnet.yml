@@ -1,49 +1,86 @@
-name: .NET Test Pipeline
+name: FTP Deploy ASP.NET
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:  # Allows manual trigger
+    branches:
+      - main # Trigger deployment to staging on push to main
+  workflow_dispatch: # Manual trigger for production deployment
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
-
+  build-and-deploy-staging:
+    if: github.event_name != 'workflow_dispatch' # Only run for push events
+    runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v2
-    
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v2
-      with:
-        dotnet-version: 8.0.x
-    
-    - name: Restore dependencies
-      run: dotnet restore
-    
-    - name: Build
-      run: dotnet build --no-restore
-    
-    - name: Test with coverage
-      run: |
-        dotnet test --collect:"XPlat Code Coverage" --results-directory ./coverage --logger "trx;LogFileName=test-results.trx"
-    
-    - name: Generate Test Report
-      run: |
-        dotnet tool install -g dotnet-reportgenerator-globaltool
-        reportgenerator -reports:"./coverage/**/coverage.cobertura.xml" -targetdir:"./coverage/report" -reporttypes:Html
-    
-    - name: Upload Test Report
-      uses: actions/upload-artifact@v3
-      with:
-        name: test-report
-        path: ./coverage/report
-        retention-days: 30
+      - name: Checkout Code
+        uses: actions/checkout@v3
 
-    - name: Upload Test Results
-      uses: actions/upload-artifact@v3
-      with:
-        name: test-results
-        path: ./coverage
-        retention-days: 30 
+      - name: Setup .NET Core SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0'
+
+      - name: Restore Dependencies
+        run: dotnet restore SocialSecurity.sln
+
+      - name: Build
+        run: dotnet build SocialSecurity.sln --configuration Release --no-restore
+
+      - name: Publish
+        run: dotnet publish SocialSecurity.sln -c Release -o ./publish
+
+      - name: Stop IIS
+        run: Stop-Service W3SVC -Force
+        shell: pwsh
+
+      - name: FTP Deploy to Staging
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER_STAGES }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_USER_PASSWORD }}
+          local-dir: ./publish/
+          server-dir: /
+          timeout: 30000
+
+      - name: Start IIS
+        run: Start-Service W3SVC
+        shell: pwsh
+
+  build-and-deploy-production:
+    if: github.event_name == 'workflow_dispatch' # Only run for manual trigger
+    runs-on: windows-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup .NET Core SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0'
+
+      - name: Restore Dependencies
+        run: dotnet restore SocialSecurity.sln
+
+      - name: Build
+        run: dotnet build SocialSecurity.sln --configuration Release --no-restore
+
+      - name: Publish
+        run: dotnet publish SocialSecurity.sln -c Release -o ./publish
+
+      - name: Stop IIS
+        run: Stop-Service W3SVC -Force
+        shell: pwsh
+
+      - name: FTP Deploy to Production
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER_PRODUCTION }}
+          username: ${{ secrets.FTP_USERNAME_PRODUCTION }}
+          password: ${{ secrets.FTP_PASSWORD_PRODUCTION }}
+          local-dir: ./publish/
+          server-dir: /
+          timeout: 30000
+
+      - name: Start IIS
+        run: Start-Service W3SVC
+        shell: pwsh
