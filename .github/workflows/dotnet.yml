@@ -29,7 +29,7 @@ jobs:
       - name: Run tests and collect coverage
         run: |
          dotnet test --no-build --configuration Release --logger trx --results-directory ./TestResults --collect:"XPlat Code Coverage"
-         $HOME/.dotnet/tools/reportgenerator -reports:"**/coverage.cobertura.xml" -targetdir:"TestResults/report" -reporttypes:HtmlInline_AzurePipelines
+         & "$env:USERPROFILE\.dotnet\tools\reportgenerator" -reports:"**/coverage.cobertura.xml" -targetdir:"TestResults/report" -reporttypes:HtmlInline_AzurePipelines
 
 
       # - name: Upload test report to GitHub artifacts
