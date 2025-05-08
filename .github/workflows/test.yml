@@ -20,13 +20,13 @@ jobs:
           dotnet-version: '8.0'
 
       - name: Restore Dependencies
-        run: dotnet restore Bahrin-Harbour/Bahrin-Harbour.sln
+        run: dotnet restore SocialSecurity.sln
 
       - name: Build
-        run: dotnet build Bahrin-Harbour/Bahrin-Harbour.sln --configuration Release --no-restore
+        run: dotnet build SocialSecurity.sln --configuration Release --no-restore
 
       - name: Publish
-        run: dotnet publish Bahrin-Harbour/Bahrin-Harbour.sln -c Release -o ./publish
+        run: dotnet publish SocialSecurity.sln -c Release -o ./publish
 
       - name: Stop IIS
         run: Stop-Service W3SVC -Force
@@ -59,13 +59,13 @@ jobs:
           dotnet-version: '8.0'
 
       - name: Restore Dependencies
-        run: dotnet restore Bahrin-Harbour/Bahrin-Harbour.sln
+        run: dotnet restore SocialSecurity.sln
 
       - name: Build
-        run: dotnet build Bahrin-Harbour/Bahrin-Harbour.sln --configuration Release --no-restore
+        run: dotnet build SocialSecurity.sln --configuration Release --no-restore
 
       - name: Publish
-        run: dotnet publish Bahrin-Harbour/Bahrin-Harbour.sln -c Release -o ./publish
+        run: dotnet publish SocialSecurity.sln -c Release -o ./publish
 
       - name: Stop IIS
         run: Stop-Service W3SVC -Force
