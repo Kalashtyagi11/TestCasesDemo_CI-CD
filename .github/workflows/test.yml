@@ -35,9 +35,9 @@ jobs:
       - name: FTP Deploy to Staging
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER_STAGING }}
-          username: ${{ secrets.FTP_USERNAME_STAGING }}
-          password: ${{ secrets.FTP_PASSWORD_STAGING }}
+          server: ${{ secrets.FTP_SERVER_STAGES }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_USER_PASSWORD }}
           local-dir: ./publish/
           server-dir: /
           timeout: 30000
