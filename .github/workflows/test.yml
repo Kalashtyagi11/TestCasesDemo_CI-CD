@@ -3,7 +3,7 @@ name: FTP Deploy ASP.NET
 on:
   push:
     branches:
-      - main # Trigger deployment to staging on push to main
+      - master # Trigger deployment to staging on push to main
   workflow_dispatch: # Manual trigger for production deployment
 
 jobs:
