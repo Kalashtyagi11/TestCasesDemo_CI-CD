@@ -1,0 +1,43 @@
+<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+<#
+    var templates = new[]
+    {
+        new { Name = "VerificationCode", Subject = "Email Verification Code" },
+        new { Name = "PasswordReset", Subject = "Password Reset Request" },
+        new { Name = "Welcome", Subject = "Welcome to Social Security" }
+    };
+#>
+using System.Threading.Tasks;
+
+namespace SocialSecurity.Shared.Services
+{
+    public partial class EmailService
+    {
+<# foreach(var template in templates) { #>
+        public async Task Send<#= template.Name #>EmailAsync(string email, string code)
+        {
+            var subject = "<#= template.Subject #>";
+            var body = Generate<#= template.Name #>EmailBody(code);
+            await SendEmailAsync(email, subject, body);
+        }
+
+        private string Generate<#= template.Name #>EmailBody(string code)
+        {
+            return $@"
+                <div style='font-family: Arial, sans-serif; text-align: center;'>
+                    <h2><#= template.Subject #></h2>
+                    <p>Your verification code is:</p>
+                    <h3 style='background: #007bff; color: white; padding: 10px 20px; display: inline-block;'>{code}</h3>
+                    <p>This code will expire in 10 minutes.</p>
+                    <p>If you didn't request this, please ignore this email.</p>
+                </div>";
+        }
+
+<# } #>
+    }
+} 

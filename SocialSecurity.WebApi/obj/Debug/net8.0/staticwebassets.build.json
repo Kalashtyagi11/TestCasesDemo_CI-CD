@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "C7zA5bOgj/Ijt5daQ/96iF55+3FWO1onVK/RKoFLRuc=",
+  "Source": "SocialSecurity.WebApi",
+  "BasePath": "_content/SocialSecurity.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

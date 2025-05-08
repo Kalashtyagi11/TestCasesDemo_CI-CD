@@ -1,0 +1,382 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F6A7B8-C9D0-4923-EF01-23456789ABCD}|SocialSecurity.IDP\\SocialSecurity.IDP.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.idp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5F6A7B8-C9D0-4923-EF01-23456789ABCD}|SocialSecurity.IDP\\SocialSecurity.IDP.csproj|solutionrelative:socialsecurity.idp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA27582E-BDE2-49B5-AC5F-2A34529A2CF4}|SocialSecurity.IDP.Tests\\SocialSecurity.IDP.Tests.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.idp.tests\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA27582E-BDE2-49B5-AC5F-2A34529A2CF4}|SocialSecurity.IDP.Tests\\SocialSecurity.IDP.Tests.csproj|solutionrelative:socialsecurity.idp.tests\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA27582E-BDE2-49B5-AC5F-2A34529A2CF4}|SocialSecurity.IDP.Tests\\SocialSecurity.IDP.Tests.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.idp.tests\\socialsecurity.idp.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BA27582E-BDE2-49B5-AC5F-2A34529A2CF4}|SocialSecurity.IDP.Tests\\SocialSecurity.IDP.Tests.csproj|solutionrelative:socialsecurity.idp.tests\\socialsecurity.idp.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F6A7B8-C9D0-4923-EF01-23456789ABCD}|SocialSecurity.IDP\\SocialSecurity.IDP.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.idp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5F6A7B8-C9D0-4923-EF01-23456789ABCD}|SocialSecurity.IDP\\SocialSecurity.IDP.csproj|solutionrelative:socialsecurity.idp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-4890-BCDE-FA1234567890}|SocialSecurity.Application\\SocialSecurity.Application.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-4890-BCDE-FA1234567890}|SocialSecurity.Application\\SocialSecurity.Application.csproj|solutionrelative:socialsecurity.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72DD0718-11E9-45BE-B5C0-257AB2A298A6}|SocialSecurity.Infrastructure\\SocialSecurity.Infrastructure.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.infrastructure\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72DD0718-11E9-45BE-B5C0-257AB2A298A6}|SocialSecurity.Infrastructure\\SocialSecurity.Infrastructure.csproj|solutionrelative:socialsecurity.infrastructure\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D4E5F6-A7B8-4901-CDEF-AB1234567890}|SocialSecurity.Domain\\SocialSecurity.Domain.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.domain\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D4E5F6-A7B8-4901-CDEF-AB1234567890}|SocialSecurity.Domain\\SocialSecurity.Domain.csproj|solutionrelative:socialsecurity.domain\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C742833D-C159-4CCB-7F1C-ADECFCB1B44E}|SocialSecurity.Shared\\SocialSecurity.Shared.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.shared\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C742833D-C159-4CCB-7F1C-ADECFCB1B44E}|SocialSecurity.Shared\\SocialSecurity.Shared.csproj|solutionrelative:socialsecurity.shared\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72DD0718-11E9-45BE-B5C0-257AB2A298A6}|SocialSecurity.Infrastructure\\SocialSecurity.Infrastructure.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.infrastructure\\data\\applicationidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72DD0718-11E9-45BE-B5C0-257AB2A298A6}|SocialSecurity.Infrastructure\\SocialSecurity.Infrastructure.csproj|solutionrelative:socialsecurity.infrastructure\\data\\applicationidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D4E5F6-A7B8-4901-CDEF-AB1234567890}|SocialSecurity.Domain\\SocialSecurity.Domain.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.domain\\socialsecurity.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C3D4E5F6-A7B8-4901-CDEF-AB1234567890}|SocialSecurity.Domain\\SocialSecurity.Domain.csproj|solutionrelative:socialsecurity.domain\\socialsecurity.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C742833D-C159-4CCB-7F1C-ADECFCB1B44E}|SocialSecurity.Shared\\SocialSecurity.Shared.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.shared\\socialsecurity.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C742833D-C159-4CCB-7F1C-ADECFCB1B44E}|SocialSecurity.Shared\\SocialSecurity.Shared.csproj|solutionrelative:socialsecurity.shared\\socialsecurity.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-4890-BCDE-FA1234567890}|SocialSecurity.Application\\SocialSecurity.Application.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-4890-BCDE-FA1234567890}|SocialSecurity.Application\\SocialSecurity.Application.csproj|solutionrelative:socialsecurity.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-4890-BCDE-FA1234567890}|SocialSecurity.Application\\SocialSecurity.Application.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-4890-BCDE-FA1234567890}|SocialSecurity.Application\\SocialSecurity.Application.csproj|solutionrelative:socialsecurity.application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CFB7695-114F-2953-AC1C-97D2DB78ADD2}|SocialSecurity.WebApi\\SocialSecurity.WebApi.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CFB7695-114F-2953-AC1C-97D2DB78ADD2}|SocialSecurity.WebApi\\SocialSecurity.WebApi.csproj|solutionrelative:socialsecurity.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CFB7695-114F-2953-AC1C-97D2DB78ADD2}|SocialSecurity.WebApi\\SocialSecurity.WebApi.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0CFB7695-114F-2953-AC1C-97D2DB78ADD2}|SocialSecurity.WebApi\\SocialSecurity.WebApi.csproj|solutionrelative:socialsecurity.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F6A7B8-C9D0-4923-EF01-23456789ABCD}|SocialSecurity.IDP\\SocialSecurity.IDP.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.idp\\models\\verificationcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5F6A7B8-C9D0-4923-EF01-23456789ABCD}|SocialSecurity.IDP\\SocialSecurity.IDP.csproj|solutionrelative:socialsecurity.idp\\models\\verificationcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-4890-BCDE-FA1234567890}|SocialSecurity.Application\\SocialSecurity.Application.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.application\\socialsecurity.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-4890-BCDE-FA1234567890}|SocialSecurity.Application\\SocialSecurity.Application.csproj|solutionrelative:socialsecurity.application\\socialsecurity.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F6A7B8-C9D0-4923-EF01-23456789ABCD}|SocialSecurity.IDP\\SocialSecurity.IDP.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.idp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E5F6A7B8-C9D0-4923-EF01-23456789ABCD}|SocialSecurity.IDP\\SocialSecurity.IDP.csproj|solutionrelative:socialsecurity.idp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F6A7B8-C9D0-4923-EF01-23456789ABCD}|SocialSecurity.IDP\\SocialSecurity.IDP.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.idp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E5F6A7B8-C9D0-4923-EF01-23456789ABCD}|SocialSecurity.IDP\\SocialSecurity.IDP.csproj|solutionrelative:socialsecurity.idp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F6A7B8-C9D0-4923-EF01-23456789ABCD}|SocialSecurity.IDP\\SocialSecurity.IDP.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.idp\\socialsecurity.idp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E5F6A7B8-C9D0-4923-EF01-23456789ABCD}|SocialSecurity.IDP\\SocialSecurity.IDP.csproj|solutionrelative:socialsecurity.idp\\socialsecurity.idp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F6A7B8-C9D0-4923-EF01-23456789ABCD}|SocialSecurity.IDP\\SocialSecurity.IDP.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.idp\\socialsecurity.idp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E5F6A7B8-C9D0-4923-EF01-23456789ABCD}|SocialSecurity.IDP\\SocialSecurity.IDP.csproj|solutionrelative:socialsecurity.idp\\socialsecurity.idp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F6A7B8-C9D0-4923-EF01-23456789ABCD}|SocialSecurity.IDP\\SocialSecurity.IDP.csproj|c:\\users\\mipl\\desktop\\social_security\\socialsecurity.idp\\socialsecurity.idp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{E5F6A7B8-C9D0-4923-EF01-23456789ABCD}|SocialSecurity.IDP\\SocialSecurity.IDP.csproj|solutionrelative:socialsecurity.idp\\socialsecurity.idp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SocialSecurity.IDP.Tests",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP.Tests\\SocialSecurity.IDP.Tests.csproj",
+              "RelativeDocumentMoniker": "SocialSecurity.IDP.Tests\\SocialSecurity.IDP.Tests.csproj",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP.Tests\\SocialSecurity.IDP.Tests.csproj",
+              "RelativeToolTip": "SocialSecurity.IDP.Tests\\SocialSecurity.IDP.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-08T05:46:19.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP.Tests\\AuthServiceTests.cs",
+              "RelativeDocumentMoniker": "SocialSecurity.IDP.Tests\\AuthServiceTests.cs",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP.Tests\\AuthServiceTests.cs",
+              "RelativeToolTip": "SocialSecurity.IDP.Tests\\AuthServiceTests.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAALsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T07:49:17.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Shared\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "SocialSecurity.Shared\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Shared\\Services\\EmailService.cs",
+              "RelativeToolTip": "SocialSecurity.Shared\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:50:20.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\Program.cs",
+              "RelativeDocumentMoniker": "SocialSecurity.IDP\\Program.cs",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\Program.cs",
+              "RelativeToolTip": "SocialSecurity.IDP\\Program.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAIwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:30:13.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationIdentityDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Infrastructure\\Data\\ApplicationIdentityDbContext.cs",
+              "RelativeDocumentMoniker": "SocialSecurity.Infrastructure\\Data\\ApplicationIdentityDbContext.cs",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Infrastructure\\Data\\ApplicationIdentityDbContext.cs",
+              "RelativeToolTip": "SocialSecurity.Infrastructure\\Data\\ApplicationIdentityDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:35:10.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SocialSecurity.IDP\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SocialSecurity.IDP\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:02:35.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Infrastructure\\Data\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "SocialSecurity.Infrastructure\\Data\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Infrastructure\\Data\\UnitOfWork.cs",
+              "RelativeToolTip": "SocialSecurity.Infrastructure\\Data\\UnitOfWork.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T07:19:14.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "SocialSecurity.Domain\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "SocialSecurity.Domain\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T06:31:52.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "SocialSecurity.Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "SocialSecurity.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAIwLAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T07:01:38.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SocialSecurity.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain\\SocialSecurity.Domain.csproj",
+              "RelativeDocumentMoniker": "SocialSecurity.Domain\\SocialSecurity.Domain.csproj",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain\\SocialSecurity.Domain.csproj",
+              "RelativeToolTip": "SocialSecurity.Domain\\SocialSecurity.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-27T10:40:28.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "SocialSecurity.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.WebApi\\appsettings.json",
+              "RelativeToolTip": "SocialSecurity.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-06T07:24:37.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "SocialSecurity.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "SocialSecurity.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T10:51:45.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SocialSecurity.Shared.csproj",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Shared\\SocialSecurity.Shared.csproj",
+              "RelativeDocumentMoniker": "SocialSecurity.Shared\\SocialSecurity.Shared.csproj",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Shared\\SocialSecurity.Shared.csproj",
+              "RelativeToolTip": "SocialSecurity.Shared\\SocialSecurity.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-07T07:18:23.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "SocialSecurity.Application\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "SocialSecurity.Application\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:35:01.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "SocialSecurity.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.WebApi\\Program.cs",
+              "RelativeToolTip": "SocialSecurity.WebApi\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T07:24:30.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VerificationCode.cs",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\Models\\VerificationCode.cs",
+              "RelativeDocumentMoniker": "SocialSecurity.IDP\\Models\\VerificationCode.cs",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\Models\\VerificationCode.cs",
+              "RelativeToolTip": "SocialSecurity.IDP\\Models\\VerificationCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:52:43.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SocialSecurity.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\SocialSecurity.Application.csproj",
+              "RelativeDocumentMoniker": "SocialSecurity.Application\\SocialSecurity.Application.csproj",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\SocialSecurity.Application.csproj",
+              "RelativeToolTip": "SocialSecurity.Application\\SocialSecurity.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-27T10:40:23.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SocialSecurity.IDP\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\appsettings.Development.json",
+              "RelativeToolTip": "SocialSecurity.IDP\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-26T20:30:37.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SocialSecurity.IDP\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SocialSecurity.IDP\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-26T20:33:39.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SocialSecurity.IDP.csproj",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\SocialSecurity.IDP.csproj",
+              "RelativeDocumentMoniker": "SocialSecurity.IDP\\SocialSecurity.IDP.csproj",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\SocialSecurity.IDP.csproj",
+              "RelativeToolTip": "SocialSecurity.IDP\\SocialSecurity.IDP.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-27T10:40:26.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SocialSecurity.IDP.http",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\SocialSecurity.IDP.http",
+              "RelativeDocumentMoniker": "SocialSecurity.IDP\\SocialSecurity.IDP.http",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\SocialSecurity.IDP.http",
+              "RelativeToolTip": "SocialSecurity.IDP\\SocialSecurity.IDP.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-04-26T20:30:31.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SocialSecurity.IDP",
+              "DocumentMoniker": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\SocialSecurity.IDP.csproj",
+              "RelativeDocumentMoniker": "SocialSecurity.IDP\\SocialSecurity.IDP.csproj",
+              "ToolTip": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\SocialSecurity.IDP.csproj",
+              "RelativeToolTip": "SocialSecurity.IDP\\SocialSecurity.IDP.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-26T20:34:06.041Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

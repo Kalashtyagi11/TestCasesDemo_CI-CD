@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "4otFAcJxnGgs+wtj6AU7y4xMjLWarsJImEetNfVekHc=",
+  "Source": "SocialSecurity.IDP",
+  "BasePath": "_content/SocialSecurity.IDP",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

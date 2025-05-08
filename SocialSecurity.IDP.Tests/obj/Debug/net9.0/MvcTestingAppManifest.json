@@ -1,0 +1,7 @@
+{
+  "SocialSecurity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application",
+  "SocialSecurity.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain",
+  "SocialSecurity.IDP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP",
+  "SocialSecurity.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Infrastructure",
+  "SocialSecurity.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Shared"
+}

@@ -1,0 +1,588 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP.Tests\\SocialSecurity.IDP.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\SocialSecurity.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\SocialSecurity.Application.csproj",
+        "projectName": "SocialSecurity.Application",
+        "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\SocialSecurity.Application.csproj",
+        "packagesPath": "C:\\Users\\MIPL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MIPL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain\\SocialSecurity.Domain.csproj": {
+                "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain\\SocialSecurity.Domain.csproj"
+              },
+              "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Shared\\SocialSecurity.Shared.csproj": {
+                "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Shared\\SocialSecurity.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain\\SocialSecurity.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain\\SocialSecurity.Domain.csproj",
+        "projectName": "SocialSecurity.Domain",
+        "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain\\SocialSecurity.Domain.csproj",
+        "packagesPath": "C:\\Users\\MIPL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MIPL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP.Tests\\SocialSecurity.IDP.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP.Tests\\SocialSecurity.IDP.Tests.csproj",
+        "projectName": "SocialSecurity.IDP.Tests",
+        "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP.Tests\\SocialSecurity.IDP.Tests.csproj",
+        "packagesPath": "C:\\Users\\MIPL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MIPL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\SocialSecurity.Application.csproj": {
+                "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\SocialSecurity.Application.csproj"
+              },
+              "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\SocialSecurity.IDP.csproj": {
+                "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\SocialSecurity.IDP.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.6.6, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\SocialSecurity.IDP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\SocialSecurity.IDP.csproj",
+        "projectName": "SocialSecurity.IDP",
+        "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\SocialSecurity.IDP.csproj",
+        "packagesPath": "C:\\Users\\MIPL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.IDP\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MIPL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\SocialSecurity.Application.csproj": {
+                "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\SocialSecurity.Application.csproj"
+              },
+              "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain\\SocialSecurity.Domain.csproj": {
+                "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain\\SocialSecurity.Domain.csproj"
+              },
+              "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Infrastructure\\SocialSecurity.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Infrastructure\\SocialSecurity.Infrastructure.csproj"
+              },
+              "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Shared\\SocialSecurity.Shared.csproj": {
+                "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Shared\\SocialSecurity.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Infrastructure\\SocialSecurity.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Infrastructure\\SocialSecurity.Infrastructure.csproj",
+        "projectName": "SocialSecurity.Infrastructure",
+        "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Infrastructure\\SocialSecurity.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\MIPL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MIPL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\SocialSecurity.Application.csproj": {
+                "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Application\\SocialSecurity.Application.csproj"
+              },
+              "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain\\SocialSecurity.Domain.csproj": {
+                "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain\\SocialSecurity.Domain.csproj"
+              },
+              "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Shared\\SocialSecurity.Shared.csproj": {
+                "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Shared\\SocialSecurity.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Shared\\SocialSecurity.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Shared\\SocialSecurity.Shared.csproj",
+        "projectName": "SocialSecurity.Shared",
+        "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Shared\\SocialSecurity.Shared.csproj",
+        "packagesPath": "C:\\Users\\MIPL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MIPL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain\\SocialSecurity.Domain.csproj": {
+                "projectPath": "C:\\Users\\MIPL\\Desktop\\Social_security\\SocialSecurity.Domain\\SocialSecurity.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.TextTemplating": {
+              "target": "Package",
+              "version": "[17.0.31902.203, )"
+            },
+            "Microsoft.VisualStudio.TextTemplating.Interfaces": {
+              "target": "Package",
+              "version": "[17.0.31902.203, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
