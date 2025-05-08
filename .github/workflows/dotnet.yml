@@ -41,11 +41,12 @@ jobs:
       - name: Upload test report to FTP server
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          host: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          localDir: "TestResults/report"
-          remoteDir: "/"
+         server: ${{ secrets.FTP_HOST }}
+         username: ${{ secrets.FTP_USERNAME }}
+         password: ${{ secrets.FTP_PASSWORD }}
+         local-dir: ./TestResults/report
+         server-dir: /
+
 
       - name: Send test report via email
         uses: dawidd6/action-send-mail@v3
