@@ -45,7 +45,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./TestResults/report/
-          server-dir: /report
+          server-dir: /report/
 
       - name: Publish IDP API
         run: dotnet publish ./src/SocialSecurity.IDP/SocialSecurity.IDP.csproj -c Release -o ./publish-idp
@@ -57,7 +57,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./publish-idp/
-          server-dir: /idp
+          server-dir: /idp/
 
       - name: Send test report via email
         uses: dawidd6/action-send-mail@v3
