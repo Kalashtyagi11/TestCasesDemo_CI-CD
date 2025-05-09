@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Checkout repository
@@ -32,11 +32,11 @@ jobs:
           dotnet test --no-build --configuration Release --logger trx --results-directory ./TestResults --collect:"XPlat Code Coverage"
           & "$env:USERPROFILE\.dotnet\tools\reportgenerator" -reports:"**/coverage.cobertura.xml" -targetdir:"TestResults/report" -reporttypes:HtmlInline_AzurePipelines
 
-      - name: Upload test report to GitHub artifacts
-        uses: actions/upload-artifact@c6cfa433f8162c276b9d85c6d92c9dc7831f6ef8
-        with:
-          name: test-report
-          path: TestResults/report
+      # - name: Upload test report to GitHub artifacts
+      #   uses: actions/upload-artifact@c6cfa433f8162c276b9d85c6d92c9dc7831f6ef8
+      #   with:
+      #     name: test-report
+      #     path: TestResults/report
 
       - name: Upload test report to FTP server
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
