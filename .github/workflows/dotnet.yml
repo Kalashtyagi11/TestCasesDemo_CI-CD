@@ -67,7 +67,7 @@ jobs:
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: ".NET Test Report - CI Pipeline"
-          to: protester789@gmail.com
+          to: kalashtyagi98@gmail.com
           from: dotnet-pipeline@example.com
           content_type: text/html
           body: |
