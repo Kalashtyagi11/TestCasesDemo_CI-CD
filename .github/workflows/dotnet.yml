@@ -33,7 +33,7 @@ jobs:
           & "$env:USERPROFILE\.dotnet\tools\reportgenerator" -reports:"**/coverage.cobertura.xml" -targetdir:"TestResults/report" -reporttypes:HtmlInline_AzurePipelines
 
       - name: Upload test report to GitHub artifacts
-        uses: actions/upload-artifact@v3.1.3
+        uses: actions/upload-artifact@v3
         with:
           name: test-report
           path: TestResults/report
