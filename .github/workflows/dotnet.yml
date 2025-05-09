@@ -48,7 +48,7 @@ jobs:
           server-dir: /report/
 
       - name: Publish IDP API
-        run: dotnet publish ./src/SocialSecurity.IDP/SocialSecurity.IDP.csproj -c Release -o ./publish-idp
+        run: dotnet publish ./SocialSecurity.IDP/SocialSecurity.IDP.csproj -c Release -o ./publish-idp
 
       - name: Upload IDP API to FTP server
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
